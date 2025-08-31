@@ -67,7 +67,6 @@ func (s *Snake) Move() {
 			s.Body = s.Body[:len(s.Body)-1]
 		}
 	}
-	fmt.Println(s.Body)
 }
 
 var (
